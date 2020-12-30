@@ -7,7 +7,7 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
 
 #create ssh key for bastion connection
-ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa.pub
+ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa
 
 
 #Kubectl installation
