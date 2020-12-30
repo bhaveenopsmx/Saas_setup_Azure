@@ -18,8 +18,8 @@ kubectl version --client
 
 
 #Terraform installation
-sudo wget https://releases.hashicorp.com/terraform/0.14.1/terraform_0.14.1_linux_amd64.zip
-sudo unzip terraform_0.14.1_linux_amd64.zip
+sudo wget https://releases.hashicorp.com/terraform/0.13.5/terraform_0.13.5_linux_amd64.zip
+sudo unzip terraform_0.13.5_linux_amd64.zip
 sudo mv terraform /usr/local/bin/
 
 #helm 3 installation
