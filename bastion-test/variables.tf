@@ -13,12 +13,12 @@ variable location {
 
 variable virtual_network_name {
     description = "The name of the virtual network created by kubenet"
-    default     = "aks-vnet-33614862"
+    default     = "VNETNAME"
 }
 
 variable resource_group_name {
     description = "Kube cluster node pool resource group name"
-    default     = "MC_arjun-k8s-rg_arjun-kube-cluster_eastus"
+    default     = "NODEPOOLRG"
 }
 
 variable bastion_subnet {
