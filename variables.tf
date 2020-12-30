@@ -42,6 +42,6 @@ variable nodepool_nodes_count {
 
 variable nodepool_vm_size {
     description = "desired nodepool vm size"
-    default     = "Standard_DS2_v2"
+    default     = "Standard_D8s_v3"
 }
 
